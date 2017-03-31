@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/',[
-    'as' => 'my',
-    'uses' => 'MyController@index'
+Route::get('/pho',[
+    'as' => 'pho',
+    'uses' => 'PhoController@index'
 ]);
